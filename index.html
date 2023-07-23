@@ -1,64 +1,138 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mi primera página web</title>
+  <title>Mi Primera Página Web</title>
+  <title>Mi Portafolio Personal</title>
   <style>
+    /* Reset de estilos para el body */
     body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      margin: 0;
-      padding: 0;
+    margin: 0;
+    padding: 0;
     }
 
-    header {
-      background-color: #333;
-      color: #fff;
-      text-align: center;
-      padding: 1rem;
+    /* Estilos generales para los encabezados */
+    h1, h2 {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
     }
 
-    nav {
-      background-color: #444;
-      color: #fff;
-      text-align: center;
-      padding: 1rem;
+    /* Estilos para la sección de inicio */
+    #inicio {
+    padding: 50px;
+    background-color: #f550d1;
     }
 
-    nav a {
-      color: #fff;
-      text-decoration: none;
-      margin: 0 1rem;
+    #inicio img {
+    width: 300px; /* Cambiar el ancho de la imagen según tu preferencia */
+    height: 300px; /* Cambiar la altura de la imagen según tu preferencia */
+    border-radius: 50%; /* Opcional: agregar bordes redondeados a la imagen */
     }
 
-    main {
-      padding: 2rem;
+
+    /* Estilos para la sección de habilidades */
+    #habilidades {
+    padding: 50px;
+    background-color: #97f3fa;
     }
 
-    footer {
-      background-color: #333;
-      color: #fff;
-      text-align: center;
-      padding: 1rem;
+    /* Estilos para la lista de habilidades */
+    #habilidades ul {
+    list-style-type: none;
+    }
+
+    /* Estilos para la sección de proyectos */
+    #proyectos {
+    padding: 50px;
+    background-color: #d48de2;
+    }
+
+    /* Estilos para la lista de proyectos */
+    #proyectos ul {
+    list-style-type: none;
+    }
+
+    /* Estilos para la sección de contacto */
+    #contacto {
+    padding: 50px;
+    background-color: #93acec;
+    }
+
+    /* Estilos para la lista de contacto */
+    #contacto ul {
+    list-style-type: none;
+    }
+
+    /* Estilos generales para los párrafos y listas */
+    p, ul {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
     }
   </style>
+  <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
   <header>
-    <h1>Bienvenido a mi página web</h1>
+    <h1>Bienvenido a mi Página Web</h1>
   </header>
   <nav>
-    <a href="#">Inicio</a>
-    <a href="#">Acerca de</a>
-    <a href="#">Contacto</a>
+  <!-- Sección de inicio -->
+  <section id="inicio">
+    <img src="https://images.unsplash.com/photo-1520583457224-aee11bad5112?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Y29tcHV0YWRvciUyMGNvbiUyMGNvZGlnb3N8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60 alt="Imagen de cabecera">
+    <h1>Nombre Apellido</h1>
+    <p>Breve descripción sobre ti y tus intereses profesionales.</p>
+  </section>
+
+  <!-- Sección de habilidades -->
+  <section id="habilidades">
+    <h2>Habilidades</h2>
+    <ul>
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#acerca-de">Acerca de</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Otras habilidades relevantes</li>
+    </ul>
   </nav>
-  <main>
-    <h2>Contenido Principal</h2>
-    <p>¡Hola! Esta es mi primera página web. Puedes editar este contenido y agregar más secciones según tus necesidades.</p>
-  </main>
+  <section id="inicio">
+    <h2>¡Hola Mundo!</h2>
+    <p>Bienvenido a mi primera página web. Aquí encontrarás información interesante sobre diversos temas.</p>
+  </section>
+  <section id="acerca-de">
+    <h2>Acerca de Mí</h2>
+    <p>Soy un apasionado del desarrollo web y me encanta aprender nuevas tecnologías. ¡Espero que disfrutes de mi página web!</p>
+
+  <!-- Sección de proyectos -->
+  <section id="proyectos">
+    <h2>Proyectos</h2>
+    <ul>
+      <li>Nombre del Proyecto 1</li>
+      <li>Nombre del Proyecto 2</li>
+      <li>Nombre del Proyecto 3</li>
+      <!-- Puedes agregar más proyectos aquí -->
+    </ul>
+  </section>
+
+  <!-- Sección de contacto -->
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>Ponte en contacto conmigo a través de mi correo electrónico o redes sociales. ¡Estoy ansioso por escucharte!</p>
+    <p>Puedes contactarme a través de los siguientes medios:</p>
+    <ul>
+      <li>Email: tu@email.com</li>
+      <li>Teléfono: +123456789</li>
+      <li>Redes sociales: enlace a tus perfiles en redes sociales</li>
+    </ul>
+  </section>
   <footer>
     <p>Derechos de autor &copy; 2023. Todos los derechos reservados.</p>
   </footer>
+
+  <!-- Puedes agregar más secciones según tus necesidades -->
+
 </body>
 </html>
