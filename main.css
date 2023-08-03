@@ -337,18 +337,7 @@
     margin-right: 50px;
   }
   
-  .expertise {
-    background: var(--color-secondary);
-  }
   
-  .expertise-item {
-    margin-bottom: 20px;
-  }
-  
-  .expertise-item.has-cards {
-    display: flex;
-    margin-bottom: 50px;
-  }
   
   .contact {
     background: var(--color-primary-highlight);
