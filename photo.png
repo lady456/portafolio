@@ -1,5 +1,6 @@
+<h1 class="title">
+<img src="https://abb2b7ea-7bf4-439e-bc6b-31ddcb7e558e" alt=" imagen cabecera">
 
-				  <img src="https://abb2b7ea-7bf4-439e-bc6b-31ddcb7e558e" alt=" imagen cabecera">
 #heander img {
 width:150px;
 height:150px;
