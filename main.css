@@ -108,7 +108,7 @@
   p {
     color: var(--color-font-highlight);
     font-size: var(--font-size-md);
-    margin: 20px 0;
+    margin: 10px 0;
   }
   
   button {
